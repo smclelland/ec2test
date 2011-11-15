@@ -3,10 +3,6 @@
 #
 #   Ensure the SQLite 3 gem is defined in your Gemfile
 #   gem 'sqlite3'
-development:
-  adapter: mysql
-  pool: 5
-  timeout: 5000
 
 development:
   adapter: mysql2
@@ -15,7 +11,7 @@ development:
   password: devpass
   pool: 5
   username: awsuser
-  host: database: momprod.cihne0lx401r.us-east-1.rds.amazonaws.com
+  host: momprod.cihne0lx401r.us-east-1.rds.amazonaws.com
   socket: /tmp/mysql.sock
   database: mom_prod
 
